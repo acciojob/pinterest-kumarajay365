@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: url('https://storage.googleapis.com/acciojob-open-file-collections/pinterest.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    z-index: 1;
+    padding: 20px;
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+.explore-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #E60023;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #C8102E;
+}
